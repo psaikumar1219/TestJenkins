@@ -20,7 +20,7 @@ public class App
 {
     public static void main( String[] args ) throws IOException {
         try {
-            String filename = "NewExcelFile.xls" ;
+            String filename = "TestReport.xls" ;
             HSSFWorkbook workbook = new HSSFWorkbook();
             HSSFSheet sheet = workbook.createSheet("FirstSheet");
 
